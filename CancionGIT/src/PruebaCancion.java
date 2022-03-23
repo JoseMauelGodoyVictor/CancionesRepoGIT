@@ -10,6 +10,9 @@ public class PruebaCancion {
 		Cancion primeraCancion = new Cancion("I Don't Like Mondays", "The Boomtown Rats", 390, true);
 		Cancion segundaCancion = new Cancion("Don’t Stop Believin’", "Journey", 320, false);
 		Cancion terceraCancion = new Cancion("Come Join The Murder", "The White Buffalo & The Forest Rangers", 420, false);
+		Cancion cuartaCancion = new Cancion("Wrong Side of Heaven", "FFDP", 420, false);
+		Cancion quintaCancion = new Cancion("When The Seasons Change", "FFDP", 420, false);
+		
 
 		if (primeraCancion.reproducirCancion()) {
 			System.out.println(primeraCancion.getTitulo() + "está sonando");
